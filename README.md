@@ -22,3 +22,26 @@ It was developed with Python3 and placed in a Lambda function inside AWS. The pu
 You can find the code inside the file endpoint2.py. 
 
 Due to the 2 functions don't accept any parameter, I don't find it relevant to create unit testing for the code.
+
+
+DELIVERABLE 1 - first.go
+==========
+Instructions
+==========
+
+Based on the self-study material and mentorship covered until this deliverable, we suggest you perform the following:
+Create an API
+Add an endpoint to read from a CSV file
+The CSV should have any information, for example:
+1,bulbasaur
+2,ivysaur
+3,venusaur
+The items in the CSV must have an ID element (int value)
+The endpoint should get information from the CSV by some field 
+The result should be displayed as a response
+Clean architecture proposal
+Use best practices
+Handle the Errors 
+=========
+
+This api fetch data from a .csv file saved in an s3 bucket, the csv contains information about civilizations of age of empires 2 DE. The endpoint accepts the query string parameter "CivId" and a value. This value must be a number from 1 to 32. This number will retrieve information from a civilization and it will return the civilization name, type and special unit.
