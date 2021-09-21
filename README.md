@@ -25,8 +25,11 @@ Due to the 2 functions don't accept any parameter, I don't find it relevant to c
 
 
 DELIVERABLE 1 - first.go
+
 ::::::::::::::
+
 Instructions
+
 ::::::::::::::
 
 Based on the self-study material and mentorship covered until this deliverable, we suggest you perform the following:
